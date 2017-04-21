@@ -1,0 +1,28 @@
+apply plugin: 'java'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "me.champeau.gradle:jmh-gradle-plugin:0.2.0"
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    testCompile 'junit:junit:4.12'
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'ch.qos.logback:logback-classic:1.0.11'
+}
+
+apply plugin: "me.champeau.gradle.jmh"
+
+jmh {
+    jmhVersion = '1.13'
+    includeTests = true
+}
