@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bulkorders.iml" filepath="$PROJECT_DIR$/.idea/modules/bulkorders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bulkorders_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bulkorders_main.iml" group="bulkorders" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bulkorders_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bulkorders_test.iml" group="bulkorders" />
+    </modules>
+  </component>
+</project>
