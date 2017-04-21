@@ -1,0 +1,21 @@
+<project name="HelloWorld" default="jar" basedir=".">
+<description>
+    This is a sample HelloWorld project build file.
+</description>
+    <property name="buildDir" value="build"/>
+    <property name="srcDir" value="src"/>
+    <property name="classesDir" value="${buildDir}/classes"/>
+    <property name="jarDir" value="${buildDir}/jar"/>
+    <target name="dirs">
+        <mkdir dir="${classesDir}"/>
+        <mkdir dir="${jarDir}"/>
+    </target>
+
+    <target name="compile" depends="dirs">
+        <javac srcdir="${srcDir}" destdir="${classesDir}"/>
+    </target>
+
+    <target name="jar" depends="dirs,compile">
+        <jar destfile="${jarDir}/HelloWorld.jar" basedir="${classesDir}"/>
+    </target>
+</project>
