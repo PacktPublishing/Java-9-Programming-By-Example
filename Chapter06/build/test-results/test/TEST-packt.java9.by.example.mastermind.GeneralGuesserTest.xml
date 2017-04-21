@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java9.by.example.mastermind.GeneralGuesserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-02-24T11:48:22" hostname="EPCHZURW0033" time="0.01">
+  <properties/>
+  <testcase name="generateAllGuesses" classname="packt.java9.by.example.mastermind.GeneralGuesserTest" time="0.01"/>
+  <system-out><![CDATA[12:48:22.734 [Test worker] DEBUG p.j.b.e.mastermind.ColorManager - creating colorManager for 6 colors
+12:48:22.734 [Test worker] DEBUG p.java9.by.example.mastermind.Table - table is created with 4 columns and packt.java9.by.example.mastermind.ColorManager@62bdf924 colorManager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packt.java9.by.example.mastermind.GameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-02-24T11:48:22" hostname="EPCHZURW0033" time="0.02">
+  <properties/>
+  <testcase name="canAddNewGuess" classname="packt.java9.by.example.mastermind.GameTest" time="0.02"/>
+  <testcase name="throwsExceptionForFinishedGame" classname="packt.java9.by.example.mastermind.GameTest" time="0.0"/>
+  <system-out><![CDATA[12:48:22.724 [Test worker] DEBUG p.j.b.e.mastermind.ColorManager - creating colorManager for 6 colors
+12:48:22.734 [Test worker] DEBUG p.java9.by.example.mastermind.Table - table is created with 4 columns and packt.java9.by.example.mastermind.ColorManager@91029d0 colorManager
+12:48:22.734 [Test worker] DEBUG p.j.b.e.mastermind.ColorManager - creating colorManager for 6 colors
+12:48:22.734 [Test worker] DEBUG p.java9.by.example.mastermind.Table - table is created with 4 columns and packt.java9.by.example.mastermind.ColorManager@7682516a colorManager
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
