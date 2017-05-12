@@ -1,7 +1,11 @@
 # Java 9 Programming By Example
 This is the code repository for [Java 9 Programming By Example](https://www.packtpub.com/application-development/java-9-programming-example?utm_source=github&utm_medium=repository&utm_campaign=9781786468284), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-Go to Mapt
+This book gets you started with essential software development easily and quickly, guiding you through Java’s different facets. By adopting this approach, you can bridge the gap between learning and doing immediately. You will learn the new features of Java 9 quickly and experience a simple and powerful approach to software development. You will be able to use the Java runtime tools, understand the Java environment, and create Java programs.
+
+We then cover more simple examples to build your foundation before diving to some complex data structure problems that will solidify your Java 9 skills. With a special focus on modularity and HTTP 2.0, this book will guide you to get employed as a top notch Java developer.
+
+By the end of the book, you will have a firm foundation to continue your journey towards becoming a professional Java developer.
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
